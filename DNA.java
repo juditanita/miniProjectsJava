@@ -17,11 +17,12 @@ public class DNA {
 		   
 		   if (length % 3 == 0  && start == 0 && end.equals("TGA")) {
 		   System.out.println(dna[i] + ":" + " The dna contains protein.");
-		   }
-		 
-			   
-			   
-		   }
+		   
+		   } else { 
+			   System.out.println(dna[i] + ":" + " The dna contains no protein.");
+			  
+			  
+		 }
 		
 		  }
 	}
